@@ -268,31 +268,3 @@ h2 {
         opacity: 0;
     }
 }
-
-@media (max-width: 768px) {
-    .hero {
-        padding: 150px 20px;
-    }
-
-    .slideshow {
-        position: static;
-        height: auto;
-    }
-
-    .slide {
-        position: static;
-        opacity: 1;
-        transform: none;
-        transition: none;
-    }
-
-    .slide.active,
-    .slide.previous,
-    .slide.next {
-        z-index: -1;
-    }
-
-    .container {
-        padding: 10px;
-    }
-}
